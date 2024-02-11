@@ -12,6 +12,7 @@ const CalculatorExpression = require("./calculatorExpression");
 //const formula= "(15*4)+(3/2)"; // Resultado: 61.5
 //const formula = "5^2"; //25
 //const formula = "(             5 ^ 2 ) ^ 2";//625
+const formula = "5*(45*3+6)-87*(9/5)"; //resultado 548.4
 
 
 //formulas malas
