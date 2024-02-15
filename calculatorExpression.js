@@ -43,6 +43,9 @@ class CalculatorExpression {
         //Verificar si hay un error
         if (operadoresSinParentesis.length == numerosArr.length - 1) {
             //Materia prima 
+            console.log("Materia prima");
+            console.log("Tamaño de operadores: ",operadoresArr.length,  operadoresArr);
+            console.log("Tamaño de numeros: ",numerosArr.length,  numerosArr);
             this.escaneoJerarquia(operadoresArr, numerosArr)
         } else {
             console.log("Hay un error en esta madre");
